@@ -1,6 +1,6 @@
 body {
   background: orange;
 }
-h1 {
-	color:white;
+h1, p1 {
+	color: white;
 }
