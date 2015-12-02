@@ -1,0 +1,23 @@
+body {
+	background-color: #CDD5F8;
+}
+h1 {
+	font-style: italic; 
+	font-family: arial;
+	font-size: 20px;
+	color: #E80C7A;
+	text-align:center;
+}
+p {
+	font-family: arial;
+	font-size: 12px;
+	color: #000000;
+}
+#slogan {
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	font-size: 15px;
+	color: #960CF1;
+}
+
