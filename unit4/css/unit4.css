@@ -1,9 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Molle:400italic);
 	
 body{
-    background-color:#FFD9FF;
-
-
+    background-color:#FCBAF8;
 }
 
 
@@ -29,6 +27,6 @@ p {
 	font-style: italic;
 	text-align: center;
 	font-size: 18px;
-    color: #960CF1;
+    color: #000000;
 }
 
