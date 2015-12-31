@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Molle:400italic);
+	
+body{
+    background-color:#FCBAF8;
+}
+
+
+header {
+	font-style: cursive;
+	font-family: Molle, Arial;
+	font-weight: 400;
+	font-size: 30px;
+	color: #E80C7A;
+	text-align:center;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+ nav{ 
+     background-color: #E8C66A;
+     font-family: arial;
+
+ }
+ aside{
+
+ 	background-color: #FFC675;
+ }
+
+ div{
+     background-color: #FFE2B8;
+
+ }
+article{
+	font-family: arial;
+	font-size: 15px;
+	color: #000000;
+	margin: 2em;
+	background-color:  article = #E89C6C;
+
+
+}
+#slogan {
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	font-size: 18px;
+    color: #000000;
+}
+footer{
+     background-color: #FF957E;
+
+}
