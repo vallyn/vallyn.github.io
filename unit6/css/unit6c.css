@@ -57,32 +57,28 @@ nav a:hover {
   background-color: #338833; 
 }
 
-.column {
-	float: left;
-	width: 260px;
-  	height: 300px;
+#two_column {
+	background-color: #ffb7cf;
+	border:1px black solid;
 	padding: 20px;
-	margin: 0;
 }
 
 #left {
-  background-color: #FF4CF2;
-}
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 45%;
+
+ }
 
 #right {
-  background-color: #66B2E1;
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 45%;
 }
-#column3 {
-  background-color: #47FFF2;
-}
-
-footer {
-	background-color: #CC5BDF;
-	text-align: right;
-	padding: 20px;
-}
-
-
 
 .clearfix:after {
   visibility: hidden; 
@@ -98,5 +94,10 @@ footer {
 	text-align: center;
 	font-size: 18px;
     color: #000000;
+}
+footer {
+	background-color: #CC5BDF;
+	text-align: right;
+	padding: 20px;
 }
 
