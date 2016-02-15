@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Molle:400italic);
+body{
+    
+	font-family:  Arial, sans-serif;
+	font-weight: auto;
+	font-size: auto;
+	font-color: auto;
+	text-align:center;
+	background-color: #B686FF;
+	border: 1px;
+	padding: 10%;
+	
+}
+
+img{
+	min-width:80px;
+	max-width: 450px;
+	padding:5%;
+
+
+}
+ .heading{
+	background-color: none;
+	text-decoration: auto;
+	text-align:center;
+	font-size: 1.5em;
+	font-color:auto;
+ }
+.style{
+	padding: 4%;
+}
+#title {
+	margin: 0 auto;
+	background-color: #B612FF;
+}
+
+header {
+	background-color: #B612FF;
+	padding: 10%;
+}
+
+header h1 { 
+  font-family: Molle, auto;
+  margin: 0; 
+  font-size: 3em;
+  padding:0;
+ }
+h2{
+	font-size: 1.5em
+	text:italic;
+	font-weight: bold;
+}
+nav a {
+	display: block;
+	font-size: 1.5em;
+	float:none;
+	
+	color: #ffffff;
+	text-decoration: none;
+	border-right: 1% solid #fff;
+	padding: 8px 15px 8px 15px;
+	text-align:center;
+	display: inline-block;
+}
+nav a:hover { 
+  background-color: #338833; 
+}
+
+@media (min-width:300px)(max-width: 1300px) {
+  nav {
+    float: none;
+  }
+  nav { 
+     margin: 0 1.6em .75em 0;
+     padding: 1%;
+  }
+.clearfix:after {
+  visibility: hidden; 
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#slogan {
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+    color: #000000;
+}
+}
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+  padding:3%;
+
+  clear: both;
+}
+

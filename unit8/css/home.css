@@ -13,7 +13,7 @@ body{
 }
 
 img{
-	min-width:80px;
+	min-width:250px;
 	max-width: 450px;
 	padding:5%;
 
@@ -54,17 +54,17 @@ nav a {
 	display: block;
 	font-size: 1.5em;
 	float:none;
-	padding: 10%;
 	color: #ffffff;
 	text-decoration: none;
 	border-right: 1% solid #fff;
-	padding: 0;
+	padding: .5em 1.5em .5em 1.5em;
+	display: inline-block;
 }
 nav a:hover { 
   background-color: #338833; 
 }
 
-@media (min-width:300px)(max-width: 1300px) {
+@media (min-width:850px)(max-width: 1300px) {
   nav {
     float: none;
   }
@@ -72,6 +72,24 @@ nav a:hover {
      margin: 0 1.6em .75em 0;
      padding: 1%;
   }
+ @media (min-width: 320px)(max-width:480px){
+    
+      h1{ font-size: 1.5em; }
+      h2{font-size:1em;
+         font-weight: bold;}
+      nav a { 
+          display:auto;
+          padding:auto;}
+      #slogan{
+      	     font-size:1em;
+      	     font-weight: bold;
+      }
+      img{
+      	  width: 300px;
+      	  padding:auto;
+      }
+ }
+
 .clearfix:after {
   visibility: hidden; 
   display: block;
