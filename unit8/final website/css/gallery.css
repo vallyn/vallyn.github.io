@@ -7,16 +7,17 @@ body{
 	font-color: auto;
 	text-align:center;
 	background-color: #B686FF;
-	border: 1px;
+	border: 1%;
 	padding: 10%;
 	
 }
 
 img{
-	min-width:80px;
-	max-width: 450px;
-	padding:5%;
-
+	min-width:400px;
+	max-width: auto;
+	padding:3%;
+ 
+ .H2{ font: italic bold;}
 
 }
  .heading{
